@@ -1,0 +1,342 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS RESET*/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #505050;
+	position:relative;
+}
+
+h1{
+	font-family: 'Parisienne', cursive;
+	color: #505050;
+	font-size: 120px;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #505050;
+	font-size: 60px;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #505050;
+	font-size: 48px;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	color: #505050;
+	font-size: 16px;
+}
+
+.navbar{
+	/*height: 70px;*/
+	width: 100%;
+	background-color: #ffffe6;
+	color: #505050;
+	font-family: 'Open Sans', sans-serif;
+	/*position:fixed;*/
+	top:0;
+	/*z-index: 50;*/
+	/*float: left;*/
+	border:none;
+	text-transform: uppercase;
+}
+
+/*.collapse{
+	height: 100%;
+}*/
+
+/*.navbar ul{ 
+	text-align: center;
+	word-spacing: 50px;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing: 5px;
+	width: 100%;
+}
+
+nav ul li{
+	display: inline;
+	line-height: 70px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #505050;
+}*/
+
+.navbar-right ul li a:hover{
+	color: #339966;
+}
+
+.landing{
+	height: 800px;
+	text-align: center;
+	background-image: url("../images/landing.jpg");
+	background-size: cover;
+}
+
+.whole-page{
+	padding: 0px;
+	margin: 0px;
+}
+
+.landing h1{
+	padding-top:250px;
+	padding-bottom: 20px;
+
+}
+.landing h2{
+	font-size: 32px;
+	font-family: 'Parisienne', cursive;
+
+}
+
+.landing span{
+	vertical-align: super;
+}
+
+.us h2{
+	text-align: center;
+	word-spacing: 50px;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing: 5px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color: #ffd9cc;
+}
+
+.picture-group{
+	/*width: 90%;*/
+	margin: 2% 5%;
+	height: 600px;
+	overflow: scroll;
+	position:relative;
+}
+
+/*.picture{
+	display: inline;
+	position: relative;
+	width: 33%;
+}*/
+
+/*.col-sm-4 img{
+	width: 33%;
+ 	display: inline; 
+	position:relative;
+}*/
+
+.row{
+	margin: 0px;
+}
+
+.col-sm-4{
+	padding: 0px;
+} 
+
+ .col-sm-4 p{
+	color: #505050;
+	background-color: #ffffe6;
+	position:absolute;
+	display:inline;
+	width:100%;
+	text-align:center;
+	float:left;
+	z-index:3;
+} 
+
+.about-us{
+	width: 50%;
+	margin: 50px 25% 50px 25%;
+}
+
+.about-us p{
+	text-align: center;
+}
+
+.wedding{
+	width:100%;
+}
+
+.wedding h2{
+	text-align: center;
+	word-spacing: 50px;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing: 5px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color: #ffd9cc;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.wedding ul{
+	/*margin:30px 0px;*/
+	text-align:center;
+	line-height:30px;
+}
+
+.wedding span{
+	vertical-align: super;
+	font-size: 12px;
+}
+
+.cursive{
+	font-family: 'Parisienne', cursive;
+	font-size: x-large;
+	margin:5px 0px;
+	color:#339966;
+}
+
+.wedding h3{
+	text-align: center;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing: 5px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color:#fff;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.medellin h2{
+	text-align: center;
+	word-spacing: 50px;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing: 5px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color: #ffd9cc;
+	margin-top: 30px;
+	margin-bottom: 30px;
+} 
+
+.medellin-photo{
+	height: 500px;
+	background-image: url(../images/medellin-panorama.jpg);
+	background-size: cover;
+	opacity:70%;
+}
+
+.medellin-photo p{
+	/*line-height: 500px;*/
+	height:inherit;
+	color:#ffffe6;
+	text-align: center;
+	font-family: 'Parisienne', cursive;
+	font-size: 72px;
+	padding-top: 250px;
+}
+
+.about-medellin{
+	width: 50%;
+	margin: 10px 25%;
+}
+
+.about-medellin p{
+	text-align: center;
+}
+
+.medellin h3{
+	text-align: center;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing: 5px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background-color:#fff;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+.medellin ul{
+	/*margin:30px 0px;*/
+	text-align:center;
+	line-height:30px;
+}
+
+footer{
+	margin-top: 30px;
+	height: 60px;
+	width: 100%;
+	background-color: #ffffe6;
+	color: #505050;
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer p{
+	line-height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.group:after {
+	content:"";
+	display: table;
+	clear:both;
+}
+
+
+
