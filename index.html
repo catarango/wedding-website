@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Cata & Miguel</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Parisienne|Playfair+Display" rel="stylesheet">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Personal Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="css/styletest.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<meta charset="utf-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Personal Script File -->
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+<div class="relative">
+<!-- <img class="img-responsive flowers-top-left" src="images/flowers-edit-top.png"> -->
+		<h1 class="container-fluid text-center intro-text green"> Catalina & Miguel 
+		</h1><style type="text/css">h1{font-size:70px;}</style>	
+		
+		<!-- Password Submission Form -->
+		<form class="container-fluid max-w-300 text-center" name="password">
+<!-- 		<div class="form-group center-block">
+			<label for="exampleInputPassword1">Enter the Password</label>
+    		<input type="password" class="form-control" name="pinput" id="exampleInputPassword1" placeholder="Password">
+		</div> -->
+		<button type="submit" class="btn btn-default bck-green" onclick="validateForm()">Enter</button>
+	</form>
+</div>
+<!-- <style type="text/css">
+	.relative{
+		position: relative;
+	}
+	.flowers-top-left{
+			position:absolute;
+			left: -50px;
+			top: -50px;
+			max-width: 200px;
+			opacity: .75;
+		}
+</style> -->
+<script type="text/javascript">
+function validateForm() {
+var testV = 1;
+var pass1 = prompt('Please Enter the Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "fiji2015") {
+alert('Welcome!');
+window.open('home.html');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt("That's not the password! Are you sure you know us?",'Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</script>	
+
+</body>
+</html>
